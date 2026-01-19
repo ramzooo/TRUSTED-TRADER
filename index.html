@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    background: #111;
+    overflow: hidden;
+}
+
+a {
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    transform: translateY(-50%);
+    color: #00ffcc;
+    font-size: 28px;
+    text-decoration: none;
+    animation: slideIn 1.5s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+</style>
+</head>
+<body>
+
+<a href="home.html">login</a>
+
+</body>
+</html>
